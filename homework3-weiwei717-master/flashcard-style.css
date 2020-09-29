@@ -1,0 +1,27 @@
+/*
+TODO(you): Write any additional styles you need here.
+*/
+body.color_change
+{
+  background-color: #97b7b7;
+}
+
+.flashcard-box .word
+{
+  animation: card_appear 0.5s;
+}
+
+@keyframes card_appear
+{
+  0%
+  {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+
+  100%
+  {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+}
